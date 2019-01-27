@@ -9,3 +9,6 @@
 ### 算法步骤
 通过降维将X从多维变为1维，并采用logistic Regression方法来得到每个样本的Propensity Score，然后进行得分匹配，最常用的匹配方法为最邻近匹配法(Nearest Neighbor Matching, NNM)
 
+参考：
+python：https://github.com/benmiroglio/pymatch
+R：https://datascienceplus.com/how-to-use-r-for-matching-samples-propensity-score
